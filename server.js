@@ -90,7 +90,7 @@ router.route('/movies')
     });
 router.post('/signup', function(req, res) {
     if (!req.body.username || !req.body.password) {
-        res.json({success: false, msg: 'Please insert your username and password.'});
+        res.json({success: false, msg: 'Please insert your username and password: '});
     } else {
         var newUser = {
             username: req.body.username,
@@ -98,7 +98,7 @@ router.post('/signup', function(req, res) {
         };
         // save the user
         db.save(newUser); //no duplicate checking
-        res.json({success: true, msg: 'You have successful created your account.'});
+        res.json({success: true, msg: 'Successful created new user!~!'});
 
     }
 });

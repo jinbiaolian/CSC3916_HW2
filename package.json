@@ -1,7 +1,7 @@
 {
-  "name": "homework_3",
+  "name": "homework_2",
   "version": "1.0.0",
-  "description": "Homewor 3",
+  "description": "CSC3916_Homework_2",
   "main": "(server.js)",
   "directories": {
     "test": "test"
@@ -24,6 +24,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Yves Nsenga",
+  "author": "Jinbiao Lian",
   "license": "MIT"
 }

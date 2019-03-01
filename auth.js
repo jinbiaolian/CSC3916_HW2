@@ -5,8 +5,8 @@ var BasicStrategy = require('passport-http').BasicStrategy;
 passport.use(new BasicStrategy(
     function(username, password, done) {
         //hard coded
-        var user = { name: "yvesnsenga" };
-        if (username == user.name && password == "ucd")
+        var user = { name: "lianjinbiao" };
+        if (username == user.name && password == "jinbiao")
         {
             return done(null, user);
         }
